@@ -21,3 +21,39 @@ console.log(characters[0]);
 
 var pie = [3.14, 'delicious', true]
 console.log(pie[1]);
+// Multi-dimensional array
+var meat = ['ham', 'bologna', 'turkey'];
+var fruit = ['oranges', 'bananas', 'apples'];
+var food = [meat,fruit];
+console.log(food[1][0]); // logs 'oranges' to the console
+
+// Object:
+var user = {
+  firstName: 'Lucille',
+  age: 40,
+  lastName: 'Bluth',
+  hasHair: true,
+  'has-feet': true
+};
+// access properties of our user obj using dot notation
+console.log(user.firstName); // log 'Lucille'
+// we can also access properties on objs using bracket notation
+console.log(user['firstName']); // log 'Lucille'
+// two vars with nums
+var one = 1;
+var two = 2;
+console.log([one], '+', [two], 'is:',[one+two]);
+// two vars with strings
+var stringy = 'one';
+var string = 'two';
+alert(stringy+string);
+// object about me
+var me = {
+  firstName: 'Amber',
+  lastName: 'Emmertz',
+  fingerCount: 10,
+  likesDogs: true,
+  likesCats: true,
+  petsNames: ['Frank','Toad']
+}
+console.log(me.petsNames);
