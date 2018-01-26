@@ -13,3 +13,11 @@ function change(){
 var name = 'Lucille'; // Store a string in a variable
 var numberOfWidgets = 10; // number
 var isCodingCool = true; // boolean
+console.log(name); // log the value of a var to the console
+
+// store an array in a variable
+var characters = [50, true,'Lucille', 'Michae Bluth', 'Tobias', 10, 2];
+console.log(characters[0]);
+
+var pie = [3.14, 'delicious', true]
+console.log(pie[1]);
